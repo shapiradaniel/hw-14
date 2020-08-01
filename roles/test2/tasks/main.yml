@@ -1,0 +1,5 @@
+---
+- name: Create /tmp/test2 file
+  copy:
+    content: "This servers hostname is: {{ ansible_hostname }}"
+    dest: /tmp/test2

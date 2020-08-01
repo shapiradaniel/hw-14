@@ -1,0 +1,9 @@
+---
+- name: Playbook to Install vim and zip
+  hosts: all
+
+  tasks:
+  - name: Install vim and zip
+    package:
+      name: vim, zip
+      state: latest

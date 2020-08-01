@@ -1,0 +1,5 @@
+---
+- name: Create /tmp/test1 file
+  copy:
+    content: "Hello world!\n"
+    dest: /tmp/test1
