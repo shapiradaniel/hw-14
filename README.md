@@ -1,2 +1,2 @@
 # hw-14
- DevOps course homework lesson 13
+ DevOps May-2020 course homework lesson 13
